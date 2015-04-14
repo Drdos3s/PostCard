@@ -89,6 +89,15 @@
                                     <rect key="frame" x="16" y="72" width="368" height="72"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ha-Pg-VE4">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="191" width="42" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="urU-1c-dmh">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.83529411764705885" green="0.49342868597031669" blue="0.11702521535580371" alpha="1" colorSpace="calibratedRGB"/>
@@ -111,6 +120,7 @@
                                 <exclude reference="PGs-bp-cAZ"/>
                                 <exclude reference="oXP-39-BxR"/>
                                 <exclude reference="gSd-JT-rek"/>
+                                <exclude reference="9ha-Pg-VE4"/>
                                 <exclude reference="urU-1c-dmh"/>
                             </mask>
                         </variation>
@@ -120,6 +130,7 @@
                                 <include reference="PGs-bp-cAZ"/>
                                 <include reference="oXP-39-BxR"/>
                                 <include reference="gSd-JT-rek"/>
+                                <include reference="9ha-Pg-VE4"/>
                                 <include reference="urU-1c-dmh"/>
                             </mask>
                         </variation>
@@ -128,6 +139,7 @@
                         <outlet property="enterMessageTextField" destination="oXP-39-BxR" id="O8n-ML-Ycn"/>
                         <outlet property="enterNameTextField" destination="PGs-bp-cAZ" id="0XJ-wY-Bye"/>
                         <outlet property="messageLabel" destination="gSd-JT-rek" id="bbN-rY-NFn"/>
+                        <outlet property="nameLabel" destination="9ha-Pg-VE4" id="jVr-Xr-lBL"/>
                         <outlet property="sendMailButton" destination="urU-1c-dmh" id="ESo-uP-lj6"/>
                     </connections>
                 </viewController>
